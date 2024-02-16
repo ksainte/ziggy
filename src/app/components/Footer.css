@@ -1,0 +1,213 @@
+
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body{
+	font-size:14px;
+	background: #fff;
+  /* max-width:1920px;
+  margin:0 auto; */
+	overflow-x:hidden;
+	font-family: poppins;
+	
+
+}
+
+
+.foot {
+  margin-top:10%;
+  width: 100vw;
+
+        /* border: solid green; */
+
+}
+
+.row {
+    display:flex;
+    justify-content: space-around;
+    
+  }
+  
+  .col-1{
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    position:relative;
+    top: -40px;
+    /* justify-content: center;
+    align-items: center; */
+
+
+}
+  .col-1 > a> img{
+    /* object-fit: contain; */
+    height :170px;
+    width: 255px;
+}
+
+.footer-about{
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
+
+#footer{
+	background: #f7f7f7;
+    padding: 3rem;
+	/* padding-top: 5rem; */
+	padding-top: 7rem;
+    padding-bottom: 80px;
+	background-image: url(https://arena.km.ua/wp-content/uploads/3538533.jpg);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+
+}
+
+li{
+	list-style: none;
+}
+
+.useful-link h2{
+	margin-bottom: 15px;
+	font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+.useful-link img{
+	padding-bottom: 15px;
+}
+.use-links{
+	line-height: 32px;
+}
+
+.address-links{
+	line-height: 32px;
+}
+
+.use-links li {
+margin-top: 25px;
+display:flex;
+/* flex-direction: column; */
+
+}
+
+
+   .use-links .fa-facebook {
+    color: #3967d0;
+    position: relative;
+    right:5px;
+    width: 0.7cm;
+    height: 0.7cm;
+  }
+
+  .use-links .fa-instagram {
+    color:rgb(200, 34, 175);
+    position: relative;
+    right:5px;
+    width: 0.7cm;
+    height: 0.7cm;
+  }
+
+  .use-links .fa-etsy {
+    color:black;
+    position: relative;
+    right:5px;
+    /* flex: 1; */
+    width:  0.7cm;
+    height: 0.7cm;
+    
+  }
+
+  
+.address-links li {
+ margin-top: 25px;
+
+}
+
+.use-links li {
+    float: none;
+  }
+
+.use-links li a{
+    font-size: 21px;
+    font-weight: 500;
+	color: rgb(180, 143, 48);
+ 
+    /* flex: 1; */
+    /* border: solid red; */
+    /* padding-right: 7px; */
+}
+.use-links li a:hover{
+	color: #000;
+}
+
+.address-links li {
+    float: none;
+  }
+
+
+
+.address-links li{
+    font-size: 21px;
+    font-weight: 500;
+	color: rgb(180, 143, 48);
+
+}
+
+
+
+.copy-right-sec{
+	padding: 0.65rem;
+    background: rgb(180, 143, 48);
+    color: #fff;
+    text-align: center;
+    font-size: 17.5px;
+
+}
+.copy-right-sec a{
+	color: black;
+    font-weight: 500;
+}
+
+
+/* footer section end */
+
+@media screen and (max-width: 768px) {
+  .row {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .use-links > li{
+    text-align: center; 
+    justify-content: center;   
+  }
+
+  .useful-link > h2{
+    margin-top: 50px;
+  }
+
+  .col-md-1 {
+    margin-top: -30px;
+    /* border: solid red; */
+  }
+
+  .foot {
+    margin-top:80px;
+       /* border: solid green; */
+
+}
+
+.col-1{
+  justify-content: center;
+  align-items: center;
+}
+}
