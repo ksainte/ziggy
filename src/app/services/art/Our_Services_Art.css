@@ -4,7 +4,7 @@
     align-items:center;
     justify-content: center;
     /* border: solid green; */
-    margin-top:150px;
+    margin-top:5%;
     flex-direction: column;
     width: 100vw;
     /* border: solid red; */
@@ -12,13 +12,7 @@
     
 }
 
-.ok{
 
-/* border: solid blue; */
-
-
-  
-}
 
 .Art > h1 {
   
@@ -39,229 +33,39 @@
 .Art_components {
 
     display:flex;
-    max-width: 100rem;
-    scroll-margin-top: 10rem;
-    margin-top:150px;
-  
-    padding: 1rem;
-
-
-}
-
-
-
-.Art_leftside{
-
-    flex: 1;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    /* border: solid green; */
-    
-    
-}
-
-.Art_leftside img {
-  height :650px;
-  /* width : 650px; */
-
-  /* width: 70vw; */
-  }
-
-  .Art_rightside  {
-    flex: 1;
-    display: flex;
+    align-items:center;
     justify-content: center;
-    align-items: flex-end;
+    /* max-width: 90vw; */
+    scroll-margin-top: 10rem;
+    margin-top:5%;
     flex-direction: column;
     /* border: solid red; */
-    /* padding: 5rem; */
-
-  
-  }
-
-
-.Art_rightside > h1 {
-   
-    font-size: 3.2rem;
-    color: rgb(48, 45, 45);
-    line-height: 1;
-    font-weight: 600;
-    text-align: left;
-    letter-spacing: 0.02em;
-    position: relative;
-    bottom: 40px;
-   
-   
-}
-
-
-
-.Art_rightside > p {
-
-
-    font-size: 1.5rem/* 24px */;
-    font-weight: 400;
-    text-align: justify;
-    text-transform: capitalize;
-    color: black;
-     position: relative;
-    top: 20px;
-    max-width: 650px;
-    /* border: solid red; */
-    /* padding: 1rem; */
 
 }
 
+.Art_components > h1{
 
-.custom__button1 {
-    background-color: rgb(180, 143, 48);
-      color: white;
-      font-weight: 500;
-      letter-spacing: 0.03em;
-      line-height: 28px;
-      font-size: 24px;
-      padding: 0.5rem 1.5rem;
-      border-radius: 1px;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      position: relative;
-      top:65px;
-  }
-
-  .Art_components1 {
-
-    /* margin-left: 170px; */
-    display:flex;
-    max-width: 100rem;
-    scroll-margin-top: 10rem;
-    margin-top:80px;
-    padding: 1rem;
-}
-
-  .Art_leftside1  {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-
-  }
-
-  .Art_leftside1 > h1 {
-   
-    font-size: 3.2rem;
-    color: rgb(48, 45, 45);
-    line-height: 1;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    position: relative;
-    bottom: 40px;
-    /* padding-left: 1rem; */
-   
-   
-}
-
-
-
-.Art_leftside1 > p {
- 
-    font-size: 1.5rem/* 24px */;
-    /* line-height: 3rem; */
-    font-weight: 400;
-    /* letter-spacing: 0.04em; */
-    text-transform: capitalize;
-    color: black;
-     position: relative;
-    top: 20px;
-    text-align: justify;
-    /* padding: 1rem; */
-    max-width: 650px;
-    /* padding: 1rem; */
+  font-size: 3.5rem;
+  color: rgb(180, 143, 48);;
+  line-height: 1;
+  font-weight: 550;
+  letter-spacing: 0.03em;
 
 }
 
-  .Art_rightside1{
-
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    
-    
+.mt  {
+  margin-top:7%;
 }
 
-.Art_rightside1 img {
-  height : 650px;
-  /* padding: 1rem; */
-
-  /* width: 650px; */
-  }
-
-  .Art_components2 {
-
-
-    display:flex;
-    max-width: 100rem;
-    scroll-margin-top: 10rem;
-    margin-top:80px;
-    padding: 1rem;
+.mt  {
+margin-top:7%;
 }
 
-  .Art_rightside2  {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-direction: column;
-
-  }
-
-  .Art_rightside2 > h1 {
-   
-    font-size: 3.2rem;
-    color: rgb(48, 45, 45);
-    line-height: 1;
-    font-weight: 600;
-    text-align: left;
-    letter-spacing: 0.02em;
-    position: relative;
-    bottom: 40px;
-}
+/* .mt2{
+  margin-top:5%;
+  } */
 
 
-
-.Art_rightside2 > p {
- 
-    font-size: 1.5rem/* 24px */;
-    /* line-height: 3rem; */
-    font-weight: 400;
-    text-align: left;
-    /* letter-spacing: 0.04em; */
-    text-transform: capitalize;
-    color: black;
-     position: relative;
-    top: 20px;
-    text-align: justify;
-    max-width: 650px;
-    /* padding: 1rem; */
-
-}
-
-  .Art_leftside2{
-
-    flex: 1;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    
-    
-}
-
-.Art_leftside2 img {
-  height : 650px;
-  }
 
 
   @media screen and (max-width: 768px) {

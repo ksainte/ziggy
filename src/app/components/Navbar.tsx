@@ -36,23 +36,23 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="dropdown">
-              <Link href="javascript:void(0)" className="links">
+              <Link href="/services/art" className="links">
                 Art
               </Link>
               <div className="dropdown-content">
-                <Link href="/services/art" className="links">
+                <Link href="/services/art/#fine_art" className="links">
                   Fine Art
                 </Link>
-                <Link href="/services/design" className="links">
+                <Link href="/services/art/#sculpture" className="links">
                   Sculpture
                 </Link>
-                <Link href="/services/restoration" className="links">
+                <Link href="/services/art/#renovation" className="links">
                   Renovation
                 </Link>
               </div>
             </li>
             <li>
-              <Link href="/about_page" className="links">
+              <Link href="/restaurant_page" className="links">
                 Restaurant
               </Link>
             </li>
@@ -93,27 +93,28 @@ export default function Navbar() {
                     Home
                   </Link>
                 </li>
+                
                 <li className="dropdown">
-                  <Link href="javascript:void(0)" className="links">
+                  <Link href="/services/art" className="links">
                     Art
                   </Link>
                   <div className="dropdown-content">
                     <Link
-                      href="/services/art"
+                     href="/services/art/#fine_art"
                       onClick={() => setToggleMenu(false)}
                       className="links"
                     >
                       Fine Art
                     </Link>
                     <Link
-                      href="/services/design"
+                     href="/services/art/#sculpture"
                       className="links"
                       onClick={() => setToggleMenu(false)}
                     >
                       Sculpture
                     </Link>
                     <Link
-                      href="/services/restoration"
+                      href="/services/art/#renovation"
                       className="links"
                       onClick={() => setToggleMenu(false)}
                     >
@@ -121,9 +122,10 @@ export default function Navbar() {
                     </Link>
                   </div>
                 </li>
+
                 <li>
                   <Link
-                    href="/about_page"
+                    href="/restaurant_page"
                     className="links"
                     onClick={() => setToggleMenu(false)}
                   >

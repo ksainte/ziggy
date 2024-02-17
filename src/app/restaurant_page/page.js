@@ -1,5 +1,5 @@
 import Our_Services_Design from "./Our_Services_Design";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar_design";
 
 
 export default function Design() {

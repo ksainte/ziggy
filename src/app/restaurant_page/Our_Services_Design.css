@@ -1,0 +1,197 @@
+
+.Design{
+
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  /* border: solid green; */
+  margin-top:5%;
+  flex-direction: column;
+  width: 100vw;
+  /* border: solid red; */
+
+  
+}
+
+
+
+.Design > h1 {
+
+  font-size: 2rem;
+  color: rgb(180, 143, 48);;
+  line-height: 1.7;
+  font-weight: 550;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  text-align: center;
+  /* line-height: 3rem; */
+  max-width: 60rem;
+
+}
+
+
+
+.Design_components {
+
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  /* max-width: 90vw; */
+  scroll-margin-top: 10rem;
+  margin-top:5%;
+  flex-direction: column;
+  /* border: solid red; */
+
+}
+
+.Design_components > h1{
+
+font-size: 3.5rem;
+color: rgb(180, 143, 48);;
+line-height: 1;
+font-weight: 550;
+letter-spacing: 0.03em;
+
+}
+
+.Design_components > h2{
+
+  font-size: 3rem;
+  color: black;
+  line-height: 1;
+  font-weight: 450;
+  letter-spacing: 0.02em;
+  margin-top:7%;
+  
+  }
+
+.mt  {
+margin-top:7%;
+}
+
+.mt1  {
+margin-top:7%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .Art{
+    width: 100vw;
+    margin-top:30px;
+          
+}
+
+.Art > h1 {
+
+  font-size: 1.4rem;
+  padding: 2rem;
+  text-align: center;
+}
+.Art_components {
+
+display:flex;
+flex-direction: column-reverse;
+margin-top:35px;
+right: 0px;
+
+}
+
+.Art_rightside  {
+align-items: center;
+}
+
+.Art_rightside > h1 {
+
+text-align: center;
+bottom: 0px;
+
+}
+
+.Art_leftside img {
+height: 100vw;
+width: 100vw;
+padding: 2rem;
+margin-top: -20px;
+
+/* border: solid red; */
+}
+
+.Art_rightside > p {
+
+top: 0px;
+padding: 2rem;
+margin-top: 15px;
+
+}
+
+.Art_components1 {
+
+margin-left: 0px;
+display:flex;
+flex-direction: column;
+max-width: 90rem;
+scroll-margin-top: 10rem;
+margin-top:65px;
+}
+
+.Art_leftside1  {
+
+align-items:center;
+
+}
+
+.Art_leftside1 > p {
+
+padding: 2rem;
+top: 0px;
+margin-top: -25px;
+
+
+}
+.Art_rightside1 img {
+height: 100vw;
+width: 100vw;
+padding: 2rem;
+}
+.Art_components2 {
+
+
+display:flex;
+flex-direction: column-reverse;
+margin-top:25px;
+
+
+}
+.Art_rightside2  {
+
+align-items: center;
+
+
+}
+.Art_rightside2 > p {
+
+padding: 2rem;
+top: 0px;
+margin-top: 15px;
+
+}
+
+.Art_rightside2 > h1 {
+
+bottom: 0px;
+}
+
+.Art_leftside2 img {
+height: 100vw;
+width: 100vw;
+padding: 2rem;
+margin-top: -10px;
+
+}
+
+}
+

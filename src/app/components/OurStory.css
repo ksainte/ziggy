@@ -37,8 +37,11 @@
 }
 
 .Services_rightside3 img {
-    height : 65vh;
-    width: 25vw;
+    /* height : 65vh;
+    width: 25vw; */
+    height : 85%;
+    width: 65%;
+    /* border: solid red; */
   }
 
   @media screen and (max-width: 768px) {

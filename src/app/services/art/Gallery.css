@@ -1,152 +1,125 @@
-.Gallery{
+
+.Gallery_design{
 
     display:flex;
     align-items:center;
     justify-content: center;
+    /* margin-top:5%; */
+    flex-direction: column;
+    
+    
+}
+
+
+.Gallery_components_design {
+
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    max-width: 80vw;
+    scroll-margin-top: 10rem;
     /* border: solid green; */
-    margin-top:150px;
-    flex-direction: column;
-    overflow-x: hidden;
-    
-    
-}
-
-.Gallery > h1 {
-
-    font-size: 3.5rem;
-    color: rgb(180, 143, 48);;
-    line-height: 1;
-    font-weight: 550;
-    letter-spacing: 0.03em;
-
-}
-
-.Gallery_components {
-
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
-    max-width: 90rem;
-    /* scroll-margin-top: 10rem; */
-    margin-top:80px;
-    overflow-x: hidden;
-
-}
-
-.Gallery_Up  {
-    
-    flex: 1;
-    display: flex;
-
-  }
-
-  .Gallery_Up > p {
- 
-    font-size: 1.5rem/* 24px */;
-    /* line-height: 3rem; */
-    font-weight: 400;
-    text-align: center;
-    /* letter-spacing: 0.04em; */
-    text-transform: capitalize;
-    color: black;
-    max-width: 60rem;
-    letter-spacing: 0.03em;
-
 
 }
 
 
-.Gallery_Down {
-    margin-top: 80px;
-    flex: 1;
+
+
+.Gallery_Down_design {
+    margin-top: 7%;
+    /* flex: 1; */
     display: flex;
     flex-direction: row;
-    max-width: 110%;
+    max-width: 100%;
     position: relative;
     /* border: solid green; */
 }
 
-.app__gallery-images_container {
+.app__gallery {
     display: flex;
-
     flex-direction: row;
     width: max-content;
-    overflow-x    /* font-size: 2.7rem; */
-    : scroll;
+    overflow-x: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;  
 }
 
 
-.app__gallery-images_container::-webkit-scrollbar {
+.app__gallery::-webkit-scrollbar {
     display: none;
 }
 
-.app__gallery-images_card {
+.app__gallery-images {
     position: relative;
-    min-width: 401px;
-    height: 547px;
+    /* min-width: 30%;
+    height: 85%; */
+    min-width: 24vw;
+    height: 70vh;
     margin-right: 2rem;
 }
 
 
-.app__gallery-images_card img {
+
+.app__gallery-images img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     opacity: 1;
     transition: .5s ease;
+    /* border: solid red; */
 }
 
-.app__gallery-images_card:hover img {
+.app__gallery-images:hover img {
     opacity: .35;
 }
 
+.app__gallery-images:hover .gallery__image-icon {
+    opacity: 1;
+}
 
-
-.app__gallery-images_arrows {
+.app__gallery_arrows {
     /* border: solid blue; */
-    width: 1730px;
+
+    width: 90vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    /* padding: 0 1rem; */
     position: absolute;
-    /* right: -1px; */
-    left: -73px;
-    top: 250px;
-    /* bottom: 5%; */
+    top: 43%;
+    left: -6.2%;
+
 }
 
-.gallery__arrow-icon {
+.gallery_arrow-icon {
     color: var(--color-golden);
-    font-size: 4rem;
+    font-size: 600%;
     cursor: pointer;
     background: var(--color-black);
     border-radius: 5px;
 }
 
-.gallery__arrow-icon:hover {
+.gallery_arrow-icon:hover {
     color: var(--color-white);
 }
 
 @media screen and (max-width: 768px) {
-    .Gallery{
-    margin-top:60px;
+    .Gallery_design{
+        margin-top:60px;
 
 
 }
-.Gallery > h1 {
+.Gallery_design > h1 {
+
     /* font-size: 2.7rem; */
+    /* padding-left: 2rem; */
     text-align: center;
-    font-size: 3.1rem;
+    font-size: 2.8rem;
 
 
 
 }
-.Gallery_Up > p {
+.Gallery_Up_design > p {
  
 
 display: flex;
@@ -154,19 +127,19 @@ padding: 2rem;
 font-size: 1.5rem/* 24px */;
 
 }
-.Gallery_components {
+.Gallery_components_design {
     margin-top:50px;
     max-width: fit-content;
 
 
 }
 
-.Gallery_Down {
+.Gallery_Down_design {
     margin-top: 50px;
     max-width: 100%;
 }
 
-.app__gallery-images_container {
+.app__gallery {
     display: block;
     width: 100%;
     width: fit-content;
@@ -175,13 +148,14 @@ font-size: 1.5rem/* 24px */;
 
 }
 
-.app__gallery-images_container::-webkit-scrollbar {
+.app__gallery::-webkit-scrollbar {
     display: none;
 }
 
-.app__gallery-images_card {
+.app__gallery-images {
     position: relative;
     min-width: 100vw;
+
     height: auto;
     margin-right: 0rem;
         /* border: solid red; */
@@ -191,16 +165,16 @@ font-size: 1.5rem/* 24px */;
 }
 
 
-.app__gallery-images_card img {
+.app__gallery-images img {
 
     object-fit:contain;
 }
 
-.app__gallery-images_arrows {
+.app__gallery_arrows {
     display: none;
 }
 
-.app__gallery-images_card:hover img {
+.app__gallery-images:hover img {
     opacity: 1;
 }
 

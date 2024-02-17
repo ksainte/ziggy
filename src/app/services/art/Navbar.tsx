@@ -25,43 +25,43 @@ export default function Navbar() {
             </Link>
           </div>
 
-        <div className="navbar_right">
+          <div className="navbar_right">
 
-          <ul className="navbar_links">
-            <li>
-              <Link href="/" className="links">
-                Home
-              </Link>
-            </li>
-            <li className="dropdown">
-              <Link href="javascript:void(0)" className="links">
-                Art
-              </Link>
-              <div className="dropdown-content">
-                <Link href="/services/art" className="links">
-                  Fine Art
-                </Link>
-                <Link href="/services/design" className="links">
-                  Sculpture
-                </Link>
-                <Link href="/services/restoration" className="links">
-                  Renovation
-                </Link>
-              </div>
-            </li>
-            <li>
-              <Link href="/about_page" className="links">
-                Restaurant
-              </Link>
-            </li>
-            <li>
-              <Link href="/#contact" className="links">
-                {" "}
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
+<ul className="navbar_links">
+  <li>
+    <Link href="/" className="links">
+      Home
+    </Link>
+  </li>
+  <li className="dropdown">
+    <Link href="/services/art" className="links">
+      Art
+    </Link>
+    <div className="dropdown-content">
+      <Link href="/services/art/#fine_art" className="links">
+        Fine Art
+      </Link>
+      <Link href="/services/art/#sculpture" className="links">
+        Sculpture
+      </Link>
+      <Link href="/services/art/#renovation" className="links">
+        Renovation
+      </Link>
+    </div>
+  </li>
+  <li>
+    <Link href="/restaurant_page" className="links">
+      Restaurant
+    </Link>
+  </li>
+  <li>
+    <Link href="/#contact" className="links">
+      {" "}
+      Contact
+    </Link>
+  </li>
+</ul>
+</div>
 
 
 
@@ -91,27 +91,28 @@ export default function Navbar() {
                     Home
                   </Link>
                 </li>
+                
                 <li className="dropdown">
-                  <Link href="javascript:void(0)" className="links">
+                  <Link href="/services/art" className="links">
                     Art
                   </Link>
                   <div className="dropdown-content">
                     <Link
-                      href="/services/art"
+                     href="/services/art/#fine_art"
                       onClick={() => setToggleMenu(false)}
                       className="links"
                     >
                       Fine Art
                     </Link>
                     <Link
-                      href="/services/design"
+                     href="/services/art/#sculpture"
                       className="links"
                       onClick={() => setToggleMenu(false)}
                     >
                       Sculpture
                     </Link>
                     <Link
-                      href="/services/restoration"
+                      href="/services/art/#renovation"
                       className="links"
                       onClick={() => setToggleMenu(false)}
                     >
@@ -119,9 +120,10 @@ export default function Navbar() {
                     </Link>
                   </div>
                 </li>
+
                 <li>
                   <Link
-                    href="/about_page"
+                    href="/restaurant_page"
                     className="links"
                     onClick={() => setToggleMenu(false)}
                   >
