@@ -73,7 +73,7 @@ export default function Navbar() {
           <GiHamburgerMenu
             className="ham"
             color="black"
-            fontSize={30}
+            fontSize={32}
             onClick={() => setToggleMenu(true)}
           />
           {toggleMenu && (

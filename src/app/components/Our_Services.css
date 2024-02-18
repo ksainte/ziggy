@@ -39,7 +39,7 @@
     font-weight: 400;
     text-transform: capitalize;
     color: black;
-    text-align: center;
+    text-align: justify;
 
 
 }
@@ -102,12 +102,12 @@
   @media screen and (max-width: 768px) {
 
     .Services{
-      margin-top:160px;
+      margin-top:20%;
   }
 
   .Services > h1 {
 
-    font-size: 3.2rem;
+    font-size: 350%;
  
 
 }
@@ -115,144 +115,25 @@
   .Services_components {
 
     display:flex;
-    flex-direction: column-reverse;
-    right: 0px;
-    margin-top:55px;
-    /* border: solid red; */
-  
-
-}
-
-.Services_rightside  {
-
-  align-items: center;
-
-
-}
-
-.Services_rightside > h1 {
-   
-
-
-  bottom: 0px;
-  /* padding-bottom: 40px; */
-  text-align: center;
-  font-size: 2.6rem;
-
-
- 
-}
-
-.Services_leftside img {
-  height: 120vw;
-  width: 100vw;
-  padding: 2rem;
-  margin-top: 15px;
-}
-
-.Services_rightside > p {
-padding: 2rem;
-top: 0px;
-margin-top: 15px;
-
-
-} 
- 
-
-
-
-
-    /*----------------------------------------------------*/
-
-    .Services_leftside1 > h1 {
-   
-      bottom: 0px;
-      /* margin: 0.9rem; */
-      text-align: center;
-      font-size: 2.6rem;
-      max-width: 200px;
-      /* border: solid red; */
-  }
-
-  .Services_components1 {
-
-    margin-left: 0px;
     flex-direction: column;
-    margin-top:20px;
-  
-  }
+    margin-top:55px;
+    max-width: 80vw;
 
-.Services_leftside1  {
-  align-items: center;
-}
-
-.Services_leftside1 > p {
- 
-padding: 2rem;
-top: 0px;
-
-
-}
-
-
-.Services_rightside1 img {
-  height: 120vw;
-  width: 100vw;
-  padding: 2rem;
-  margin-top: 15px;
-
-}
-
-    /*----------------------------------------------------*/
-
-
-.Services_components2 {
-  display:flex;
-  flex-direction: column-reverse;
-  margin-top:30px;
-
-}
-
-.Services_rightside2  {
-
-  align-items: center;
-
-}
-
-.Services_rightside2 > h1 {
-   
-  bottom: 0px;
-  text-align: center;
- /* border: solid red; */
- font-size: 2.6rem;
- 
-}
-
-.Services_rightside2 > p {
- 
-padding: 2rem;
-top: 0px;
-margin-top: 15px;
-
-
-}
-
-.Services_leftside2 img {
-  height: 120vw;
-  width: 100vw;
-  padding: 2rem;
-  margin-top: 15px;
-
-}
-.custom__button1 {
-
-    position: relative;
-    /* margin-top: 25px; */
-    top:0px;
     /* border: solid red; */
-
 }
 
+.p {
+
+  display: flex; 
+  font-size: 185%;
+  font-weight: 400;
+  text-transform:capitalize;
+  color: black;
+  text-align: justify;
+
+
+
+}
 
 
 

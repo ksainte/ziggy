@@ -74,124 +74,66 @@ margin-top:7%;
 }
 
 
-
-
-
-
 @media screen and (max-width: 768px) {
-  .Art{
+  .Design{
     width: 100vw;
-    margin-top:30px;
+    margin-top:10%;
           
 }
 
-.Art > h1 {
+.Design > h1 {
 
-  font-size: 1.4rem;
+  font-size: 185%;
+  
+  text-transform: capitalize;
+  text-align: justify;
+  line-height: 1.5;
   padding: 2rem;
-  text-align: center;
-}
-.Art_components {
+  letter-spacing: 0.00em;
 
-display:flex;
-flex-direction: column-reverse;
-margin-top:35px;
-right: 0px;
+  /* max-width: 80vw; */
+
 
 }
 
-.Art_rightside  {
-align-items: center;
-}
+.Design_components {
 
-.Art_rightside > h1 {
-
-text-align: center;
-bottom: 0px;
-
-}
-
-.Art_leftside img {
-height: 100vw;
-width: 100vw;
-padding: 2rem;
-margin-top: -20px;
-
-/* border: solid red; */
-}
-
-.Art_rightside > p {
-
-top: 0px;
-padding: 2rem;
-margin-top: 15px;
-
-}
-
-.Art_components1 {
-
-margin-left: 0px;
 display:flex;
 flex-direction: column;
-max-width: 90rem;
-scroll-margin-top: 10rem;
-margin-top:65px;
-}
-
-.Art_leftside1  {
-
-align-items:center;
-
-}
-
-.Art_leftside1 > p {
-
-padding: 2rem;
-top: 0px;
-margin-top: -25px;
-
-
-}
-.Art_rightside1 img {
-height: 100vw;
-width: 100vw;
-padding: 2rem;
-}
-.Art_components2 {
-
-
-display:flex;
-flex-direction: column-reverse;
-margin-top:25px;
-
-
-}
-.Art_rightside2  {
-
+margin-top:-8%;
+justify-content: center;
 align-items: center;
+text-align: center;
+  /* border: solid red; */
 
-
-}
-.Art_rightside2 > p {
-
-padding: 2rem;
-top: 0px;
-margin-top: 15px;
-
+    /* max-width: 80vw; */
 }
 
-.Art_rightside2 > h1 {
+.Design_components > h1{
 
-bottom: 0px;
-}
+font-size: 350%;
+color: rgb(180, 143, 48);;
+line-height: 1;
+font-weight: 550;
+letter-spacing: 0.03em;
+margin-top:15%;
+max-width: 100vw;
+/* border: solid red; */
+/* margin: 1rem; */
 
-.Art_leftside2 img {
-height: 100vw;
-width: 100vw;
-padding: 2rem;
-margin-top: -10px;
+      /* max-width: 80vw; */
 
 }
 
+.Design_components > h2{
+
+  font-size: 3rem;
+  color: black;
+  line-height: 1;
+  font-weight: 450;
+  letter-spacing: 0.02em;
+  margin-top:15%;
+  
+  }
 }
 

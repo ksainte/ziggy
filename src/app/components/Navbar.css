@@ -4,7 +4,6 @@
     /* height: 100vh;
     width: 100vw; */
     display: flex;
-    flex-direction: column;
     position: absolute;
     background-color: rgba(0, 0, 0, 0); 
     z-index: 1000; 
@@ -113,27 +112,22 @@
 /*par default hamburger avec menu existe pas*/
 .smallscreen {
   display: none;
-  /* background: white; */
 }
 
 .ham{
-  display: flex;
-  color: black;
-  flex:1;
+  color: white;
+
   }
 
 .app__navbar-smallscreen_overlay{
   position: fixed; 
-  top: 0;/*menu hamburger tjrs plein ecran, pas de top*/
-  left:0;
-  width: 100%;
+  top: 0;
+  left:0%;
+  width: 100vw;
   height: 100vh;
   transition: 0.5s ease;
   z-index: 5;
   background: white;
-
-  /* border: solid green; */
-
 }
 
 
@@ -142,8 +136,9 @@
 
   cursor: pointer;
   position: absolute;
-  top: 47px;
-  right: 50px;
+  top: 4%;
+  right: 12%;
+
 }
 
 
@@ -152,8 +147,10 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  /* border: solid blue; */
   margin-top: 120px;
+
+
+
 }
 
 .app__navbar-smallscreen_links li {
@@ -174,8 +171,15 @@
       display: none;
   }
 
+  
+
   .smallscreen {
       display: flex;
+      overflow-x: hidden;
+      overflow-y: visible;
+
+
+
   }
 
   .navbar img {
@@ -189,21 +193,23 @@
 @media screen and (max-width: 768px) {
 
 
-  .navbar {
-      padding: 0.7rem;
-      /* border: solid red; */
-        }
+
+
+.navbar{
+  padding: 0.7rem;
+
+  /* height: 100vh;
+  width: 100vw; */
+  display: flex;
+  position:absolute;
+  background-color: white; 
+  z-index: 1000; 
+  align-items: center;
+  justify-content: center;
   
-  .testin {
-      width: 100px;
-      /* border: solid red; */
-      height: 150px;
-      /* object-fit: contain; */
-      /* object-fit: contain; */
-      /* height: 140px; */
 
+}
 
-  }
   .navbar_comp{
     display: flex;
     /* max-width: 120rem; */
@@ -215,15 +221,34 @@
     margin-left: 0px;
     /* border: solid blue; */
 }
-}
 
-/* @media screen and (min-width: 2000px) {
-  .app__navbar-logo img {
-      width: 210px;
-      height: fit-content;
+.links {
+  color : black;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 410;
+  line-height: 1.75rem;
+  letter-spacing: 0.02em;
+  opacity: 1;
+
+  --tw-space-x-reverse: 0;
+
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+
+}
+.ham{
+  color: black;
+
   }
 
-} */
+  .navbar img {
+    width: 90px;
+    height: fit-content;
+}
+}
+
+
 
 
 

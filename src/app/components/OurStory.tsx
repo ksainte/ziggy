@@ -21,15 +21,6 @@ function OurStory() {
          
           <p > "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
           
-          {/* <Button
-            styles={'custom__button1'}
-            type={'button'}
-            title={'Open Art'}
-            disabled={false}
-            >
-              <Link href="/about_page" > See Our Story</Link>
-
-            </Button> */}
         </article>
 
         <div className='Services_rightside3'>

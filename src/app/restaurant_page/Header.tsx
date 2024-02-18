@@ -8,11 +8,7 @@ import Image from "next/image";
 function Header() {
   return (
     <div className='Header_rest' >
-    {/* <Image
-    className="header-background" 
-    src= {art_header}
-    alt=""
-    /> */}
+ 
       <div className='Header_components_rest'>
 
       <div className='Header_center_rest'>

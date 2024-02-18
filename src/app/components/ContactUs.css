@@ -28,9 +28,13 @@
 .Contact_components {
 
     display:flex;
-    max-width: 65vw;
+    /* width: 55vw; */
+    align-items:center;
+    justify-content: center;
     scroll-margin-top: 10rem;
     margin-top:5%;
+    /* height: 100vh; */
+    /* border: solid red; */
 }
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -70,7 +74,7 @@ textarea {
 #container {
   border: solid 3px rgb(180, 143, 48);
   padding: 30.5px;
-  width: 1000px;
+  width: 65vw;
 }
 
 form {
@@ -248,14 +252,40 @@ textarea {
 @media screen and (max-width: 768px) {
   #container {
 
-    border: solid 0px rgb(180, 143, 48);
-    margin-top: -50px;
-    padding: 0px;
-    width: fit-content;
+    border: solid 1px rgb(180, 143, 48);
+    margin-top: 0px;
+    padding: 8px;
+    /* min-width: 80vw; */
+
+    min-width: 80vw;
+
   }
 
+  .Contact_components {
+
+    display:flex;
+    /* width: 55vw; */
+    align-items:center;
+    justify-content: center;
+    scroll-margin-top: 10rem;
+    margin-top:15%;
+    /* height: 100vh; */
+    /* border: solid red; */
+}
+
   .Contact{
-    margin-top:50px;
+    margin-top:20%;
+  }
+  .Contact > h1 {
+
+    font-size: 370%;
+    color: rgb(180, 143, 48);;
+      line-height: 1;
+      font-weight: 550;
+      letter-spacing: 0.03em;
+      max-width: 80vw;
+
+  
   }
 .submit {
 flex-direction: column;

@@ -105,39 +105,14 @@
 
 @media screen and (max-width: 768px) {
     .Gallery_design{
-        margin-top:60px;
-
-
+        margin-top:8%;
 }
-.Gallery_design > h1 {
 
-    /* font-size: 2.7rem; */
-    /* padding-left: 2rem; */
-    text-align: center;
-    font-size: 2.8rem;
-
-
-
-}
-.Gallery_Up_design > p {
- 
-
-display: flex;
-padding: 2rem;
-font-size: 1.5rem/* 24px */;
-
-}
 .Gallery_components_design {
-    margin-top:50px;
     max-width: fit-content;
-
-
 }
 
-.Gallery_Down_design {
-    margin-top: 50px;
-    max-width: 100%;
-}
+
 
 .app__gallery {
     display: block;
