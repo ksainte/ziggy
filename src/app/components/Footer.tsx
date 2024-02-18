@@ -43,11 +43,22 @@ function Footer() {
 							<div className="use-links">
 								
 								<li>
-								<a href="/"> Home</a>
-									{/* <Link href="/#navbar"><a> Home</a> </Link> */}
+								<Link href="/">
+									Home
+								</Link>
 								</li>
-								<li><Link href="/about_page"> About Us</Link></li>
-								<li><Link href="/services/art/#gallery">Gallery</Link></li>
+								<li>
+								<Link href="/services/art">
+									Art
+								</Link>
+									</li>
+								<li>
+									
+								<Link href="/restaurant_page">
+									Restaurant
+								</Link>
+									
+								</li>
 								<li><Link href="/#contact">Contact</Link></li>
 							</div>
 						</div>
