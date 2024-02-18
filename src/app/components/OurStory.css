@@ -27,12 +27,48 @@
     margin-top:5%;
 }
 
+.Services_leftside1  {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* border: solid red; */
+
+  }
+
+  .Services_leftside1 > h1 {
+   
+    font-size: 350%;
+    color: rgb(48, 45, 45);
+    line-height: 1;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 0.02em;
+    /* margin-bottom: 8%; */
+   
+   
+}
+
+
+
+.Services_leftside1 > p {
+  font-size: 175%;
+    font-weight: 400;
+    text-align: justify;
+    text-transform: capitalize;
+    color: black;
+    /* border: solid red; */
+    max-width: 150%;
+}
+
 .Services_rightside3{
 
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    /* border: solid green; */
 
 }
 

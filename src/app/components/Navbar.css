@@ -1,57 +1,15 @@
 
 
-.see{
-
-  /* position: absolute; */
-  color: white;
-  display: flex;
-  flex-direction: column;
-  /* border: solid white; */
-  margin-top: 25%;
-  
-}
-
-.see > h2{
-
-  color: white;
-  font-size: 650%;
-  margin-left: 3%;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  /* border: solid white; */
-  
-
-}
-
-.h3{
-
-  color: white;
-  font-size: 55%;
-  margin-left: 2%;
-  /* border: solid white; */
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: 0.01em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1%;
-  font-style: italic;
-}
-
 .navbar{
-    z-index:999;
-    height: 100vh;
-    width: 100vw;
-
+    /* height: 100vh;
+    width: 100vw; */
     display: flex;
     flex-direction: column;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0); 
+    z-index: 1000; 
+    
 
-    background-image: url("../assets/Header background for top of pages .jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    opacity: 100%;
 }
 
 
@@ -84,10 +42,11 @@
 .links {
     color : white;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 410;
     line-height: 1.75rem;
     letter-spacing: 0.02em;
+    opacity: 1;
 
     --tw-space-x-reverse: 0;
 
@@ -112,7 +71,7 @@
   
 
   li a:hover{
-    background-color: #f1f1f1;
+    background-color: rgb(230, 177, 42, 0.5);
     text-decoration: underline;
   }
   
@@ -139,7 +98,8 @@
     /* border: solid red; */
   }
   
-  .dropdown-content a:hover {background-color: rgb(230, 177, 42, 0.5);}
+  .dropdown-content a:hover {background-color: rgb(230, 177, 42, 0.5);     text-decoration: none;
+  }
   
   .dropdown:hover .dropdown-content {
     display: block;

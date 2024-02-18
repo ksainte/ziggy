@@ -148,12 +148,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      <article className="see">
-      <h2 >We Create </h2>
-      <h2 className="flex">Art Spaces <h3 className="h3">Design + Build + Art</h3></h2>
-      
-      </article>
-        
 
     </div>
 
