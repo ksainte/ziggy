@@ -125,6 +125,7 @@
   left:0%;
   width: 100vw;
   height: 150vh;
+  position:fixed;
   transition: 0.5s ease;
   z-index: 5;
   background: white;
