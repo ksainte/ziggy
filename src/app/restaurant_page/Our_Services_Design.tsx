@@ -17,30 +17,30 @@ function Our_Services_Design() {
     <div className='Design' >
     <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit."</h1>
  <div className='Design_components'>
-      <h1>PRODUCTS</h1>
-      <h2>PARTITION</h2>
-      <Gallery/>
-      <h2>WALL FEATURES</h2>
-      <Gallery/>
-      <h2>CEILING</h2>
-      <Gallery/>
-      <h2>DOORS</h2>
-      <Gallery/>
-      <h2>SHELVES</h2>
-      <Gallery/>
+      <h1 id="products">PRODUCTS</h1>
+            <h2>PARTITION</h2>
+            <Gallery/>
+            <h2>WALL FEATURES</h2>
+            <Gallery/>
+            <h2>CEILING</h2>
+            <Gallery/>
+            <h2>DOORS</h2>
+            <Gallery/>
+            <h2>SHELVES</h2>
+            <Gallery/>
 
 
-        <h1 className='mt' >CAPABILITIES</h1>
-        <h2>DIGITAL PRINTING</h2>
-        <Gallery/>
-        <h2>FABRICATION</h2>
-        <Gallery/>
-        <h2>LIGHTING</h2>
-        <Gallery/>
-        <h1 className='mt'>INSPIRATION</h1>
+        <h1 className='mt' id="capabilities" >CAPABILITIES</h1>
+            <h2>DIGITAL PRINTING</h2>
+            <Gallery/>
+            <h2>FABRICATION</h2>
+            <Gallery/>
+            <h2>LIGHTING</h2>
+            <Gallery/>
+        <h1 className='mt' id="inspiration">INSPIRATION</h1>
         <h2>PROJECT GALLERY</h2>
         <Gallery/>
-        <h1 className='mt'>MURALS</h1>
+        <h1 className='mt'id="murals">MURALS</h1>
         <Gallery/>
         
 

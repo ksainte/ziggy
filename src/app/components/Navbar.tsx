@@ -30,12 +30,15 @@ export default function Navbar() {
         <div className="navbar_right">
 
           <ul className="navbar_links">
+
             <li>
               <Link href="/" className="links">
                 Home
               </Link>
             </li>
+
             <li className="dropdown">
+
               <Link href="/services/art" className="links">
                 Art
               </Link>
@@ -51,17 +54,21 @@ export default function Navbar() {
                 </Link>
               </div>
             </li>
+
             <li>
               <Link href="/restaurant_page" className="links">
                 Restaurant
               </Link>
+
             </li>
+
             <li>
               <Link href="/#contact" className="links">
                 {" "}
                 Contact
               </Link>
             </li>
+
           </ul>
         </div>
 
@@ -95,9 +102,12 @@ export default function Navbar() {
                 </li>
                 
                 <li className="dropdown">
-                  <Link href="/services/art" className="links">
+
+                  <Link href="/services/art" 
+                  className="links">
                     Art
                   </Link>
+
                   <div className="dropdown-content">
                     <Link
                      href="/services/art/#fine_art"
@@ -106,6 +116,7 @@ export default function Navbar() {
                     >
                       Fine Art
                     </Link>
+
                     <Link
                      href="/services/art/#sculpture"
                       className="links"
@@ -121,17 +132,51 @@ export default function Navbar() {
                       Renovation
                     </Link>
                   </div>
+
                 </li>
 
-                <li>
+                <li className="dropdown">
                   <Link
                     href="/restaurant_page"
                     className="links"
-                    onClick={() => setToggleMenu(false)}
+                    // onClick={() => setToggleMenu(false)}
                   >
                     Restaurant
                   </Link>
+                  <div className="dropdown-content">
+                    <Link
+                     href="/restaurant_page/#products"
+                      onClick={() => setToggleMenu(false)}
+                      className="links"
+                    >
+                      Products
+                    </Link>
+
+                    <Link
+                     href="/restaurant_page/#capabilities"
+                      className="links"
+                      onClick={() => setToggleMenu(false)}
+                    >
+                      Capabilities
+                    </Link>
+                    <Link
+                      href="/restaurant_page/#inspiration"
+                      className="links"
+                      onClick={() => setToggleMenu(false)}
+                    >
+                      Inspiration
+                    </Link>
+                    <Link
+                      href="/restaurant_page/#murals"
+                      className="links"
+                      onClick={() => setToggleMenu(false)}
+                    >
+                      Murals
+                    </Link>
+                  </div>
+
                 </li>
+
                 <li>
                   <Link
                     href="/#contact"
@@ -142,6 +187,7 @@ export default function Navbar() {
                     Contact
                   </Link>
                 </li>
+                
               </ul>
             </div>
           )}
