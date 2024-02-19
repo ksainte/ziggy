@@ -90,7 +90,7 @@
   .dropdown-content a {
     color: black;
     padding: 14px;
-    margin: 14px;
+    margin: 11px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -155,7 +155,7 @@
 }
 
 .app__navbar-smallscreen_links li {
-  margin: 2.3rem;
+  margin: 2rem;
   cursor: pointer;
   font-size: 2.4rem;
   text-align: center;
