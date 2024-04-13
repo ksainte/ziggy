@@ -1,8 +1,6 @@
 
 
 .navbar{
-    /* height: 100vh;
-    width: 100vw; */
     display: flex;
     position: absolute;
     background-color: rgba(0, 0, 0, 0); 
@@ -10,8 +8,6 @@
     
 
 }
-
-
 
 .navbar_comp{
   width: 100vw;
@@ -41,7 +37,7 @@
 .links {
     color : white;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 27px;
     font-weight: 410;
     line-height: 1.75rem;
     letter-spacing: 0.02em;
@@ -168,6 +164,8 @@
 .app__navbar-smallscreen_links li .p__opensans:hover{
   color: grey;
 }
+
+
 
 @media screen and (max-width: 1150px) {
   .navbar_links {

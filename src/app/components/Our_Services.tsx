@@ -25,7 +25,14 @@ function Our_Services() {
 
         <article>
 
-          <p className='p'> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <p className='p'> The quick-serve and fast-casual restaurant space is our sweet spot with 25+ years of experience.
+Our service approach allows our clients to benefit from our expertise in building new concepts or refreshing brands.
+We provide complete restaurant interior and exterior solutions. These include mostly custom made products, bars, and murals.
+With our full capabilities ranging from floor plans to original fine arts.
+Each project is created witch the personal involvement of Ziggy Bober, who is an artist, designer and company owner.</p>
+
+          <p className='p1'> “Art washes away from the soul the dust of everyday life” </p>
+          <p className='p2'> M. Aurelius</p>
     
         </article>
 

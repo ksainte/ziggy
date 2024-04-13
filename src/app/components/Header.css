@@ -1,6 +1,3 @@
-
-
-
 .see{
 
     /* position: absolute; */
@@ -19,7 +16,7 @@
   .see> h2{
   
     color: white;
-    font-size: 700%;
+    font-size: 5.3vw;
 
     margin-left: 3%;
     line-height: 1.2;
@@ -73,6 +70,9 @@
 
     
 }
+
+
+
 
 
 @media screen and (min-width: 351px) and (max-width: 768px) {
