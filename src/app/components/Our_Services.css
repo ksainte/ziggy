@@ -7,6 +7,7 @@
     justify-content: center;
     margin-top:5%;
     flex-direction: column;
+    /* max-width: 65vw; */
 
 }
 
@@ -17,8 +18,7 @@
     color: rgb(180, 143, 48);;
     line-height: 1;
     font-weight: 550;
-    letter-spacing: 0.03em;
-
+    letter-spacing: 0.02em;
 }
 
 
@@ -26,92 +26,58 @@
 .Services_components {
 
     display:flex;
-    align-items:center;
-    justify-content: center;
+    /* align-items:center;
+    justify-content: center; */
     max-width: 65vw;
     scroll-margin-top: 10rem;
     margin-top:5%;
 }
 
+.article {
+
+display: flex;
+flex-direction: column;
+align-self: flex-end;
+}
+
+.article .p1 {
+  align-self: flex-end;
+}
+.article .p2 {
+  align-self: flex-end;
+}
 .p {
 
-    font-size: 1.7rem;
+    font-size: 1.65rem;
     font-weight: 400;
     color: black;
     text-align: justify;
-    letter-spacing: 0.02em;
-    line-height: 48px;
+    letter-spacing: 0.01em;
+    line-height: 1.7;
+
 }
 
+
 .p1 {
+
   margin-top: 30px;
   font-size: 1.4rem;
   font-weight: 400;
   color: black;
-  /* letter-spacing: 0.03em; */
   line-height: 38px;
   font-style: italic;
-  max-width: 30%;
-  margin-left: 900px;
+  max-width: 18rem;
 }
 
 .p2 {
 
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 300;
   color: black;
-  /* letter-spacing: 0.03em; */
   line-height: 30px;
   font-style: italic;
-  display: flex;
-  justify-content: flex-end;
 
 }
-
-
-
-/*set between 99% and 79%*/
-@media screen
-and (min-device-width: 1935px)
-and (max-device-width: 2405px) {
-
-  .p {
-
-    font-size: 1.9rem;
-}
-.Services > h1 {
-
-  font-size: 3.2rem;
-
-
-}
-
-}
-
-/*set between 79% and 66%*/
-@media screen
-and (min-device-width: 2406px)
-and (max-device-width: 2900px) {
-
-  .p {
-
-    font-size: 2.6rem;
-}
-
-.Services > h1 {
-
-  /* font-size: 450%; */
-  font-size: 4rem;
-
-
-}
-
-}
-
-
-
-
-
 
 
   @media screen and (max-width: 768px) {

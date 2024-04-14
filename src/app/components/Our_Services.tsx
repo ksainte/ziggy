@@ -23,7 +23,7 @@ function Our_Services() {
 
       <div className='Services_components'>
 
-        <article>
+        <article className='article'>
 
           <p className='p'> The quick-serve and fast-casual restaurant space is our sweet spot with 25+ years of experience.
 Our service approach allows our clients to benefit from our expertise in building new concepts or refreshing brands.

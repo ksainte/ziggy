@@ -7,12 +7,14 @@
     scroll-margin-top: 10rem;
     margin-top:5%;
 
+
 }
 
   .About_leftside1  {
 
         display:flex;
         flex-direction: column;
+        /* border: solid red; */
   }
 
 
@@ -20,13 +22,13 @@
 
 .About_leftside1 > p {
  
-    font-size: 1.7rem;
+    font-size: 1.65rem;
     /* line-height: 2.8rem; */
-    line-height: 48px;
+    line-height: 1.7;
     font-weight: 400;
     /* text-align: left; */
     color: black;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.01em;
     text-align: justify;
 
 }
@@ -44,52 +46,15 @@
 }
 
 .About_leftside1 img {
-    height : 65%;
-    width: 27%;
+    height : 400px;
+    width: 230px;
     float: right;
     margin-left: 38px;
+    object-fit: contain;
+    margin-top: 15px;
+    
+    
   }
-
-
-
-/*set between 99% and 79%*/
-@media screen
-and (min-device-width: 1935px)
-and (max-device-width: 2405px) {
-
-    .Services_leftside1 > h1 {
-   
-        font-size: 2.8rem;       
-    }
-    
-    
-    
-    .Services_leftside1 > p {
-        font-size: 2rem;
-    }
-
-}
-
-/*set between 79% and 66%*/
-@media screen
-and (min-device-width: 2406px)
-and (max-device-width: 2900px) {
-
-    .Services_leftside1 > h1 {
-   
-        font-size: 3.3rem;       
-    }
-    
-    
-    
-    .Services_leftside1 > p {
-  
-        font-size: 2.5rem;
-
-    }
-
-
-}
 
 
   @media screen and (max-width: 768px) {

@@ -5,7 +5,7 @@ import Button from './Button';
 
 function ContactUs() {
   return (
-    <div className='Service' id="contact">
+    <div className='Services' id="contact">
     <h1>Contact Us</h1>
 
  <div className='Contact_components'>

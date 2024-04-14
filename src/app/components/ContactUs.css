@@ -1,25 +1,4 @@
-.Service{
 
-  display:flex;
-  align-items:center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top:2%;
-
-  /* background-color: red; */
-  /* border: solid red; */
-
-}
-.Service > h1 {
-
-  /* font-size: 450%; */
-  font-size: 2.7rem;
-  color: rgb(180, 143, 48);;
-  line-height: 1;
-  font-weight: 550;
-  letter-spacing: 0.03em;
-
-}
 .Contact_components {
 
     display:flex;
@@ -69,8 +48,10 @@ textarea {
 #container {
   border: solid 3px rgb(180, 143, 48);
   padding: 30.5px;
-  width: 50vw;
-  height: 80vh;
+  width: 800px;
+  height: 750px;
+  /* width: 50rem; */
+  /* width: 100%; */
 }
 
 form {
