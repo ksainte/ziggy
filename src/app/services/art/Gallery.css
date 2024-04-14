@@ -27,7 +27,7 @@
 
 
 .Gallery_Down_design {
-    margin-top: 7%;
+    margin-top: 6rem;
     /* flex: 1; */
     display: flex;
     flex-direction: row;
@@ -54,8 +54,8 @@
     position: relative;
     /* min-width: 30%;
     height: 85%; */
-    min-width: 20vw;
-    height: 60vh;
+    min-width: 25rem;
+    height: 33rem;
     margin-right: 2rem;
 }
 
@@ -82,18 +82,21 @@
     /* border: solid blue; */
 
     width: 90vw;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    top: 43%;
-    left: -6.2%;
+    margin-top: 6rem;
+    /* margin-left: 1vw;
+    margin-right: 1vw; */
 
 }
 
 .gallery_arrow-icon {
     color: var(--color-golden);
-    font-size: 600%;
+    font-size: 4rem;
     cursor: pointer;
     background: var(--color-black);
     border-radius: 5px;

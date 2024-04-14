@@ -5,14 +5,13 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 0); 
     z-index: 1000; 
-    
+    /* border: solid red; */
 
 }
 
 .navbar_comp{
   width: 100vw;
     display: flex;
-    /* max-width: 120rem; */
     align-items: center;
     justify-content : space-around;
     top: 0px;
@@ -21,6 +20,35 @@
 
 }
 
+.navbar_left{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.testr{
+
+  font-size: 5rem;
+  color: white;
+  letter-spacing: 0.04em;
+  font-weight: 450;
+  line-height: 1;
+
+  /* border: solid white; */
+}
+
+.testr2{
+  /* height:100px;
+  width : 150px; */
+  font-size: 1.5rem;
+  color: white;
+  letter-spacing: 0.03em;
+  font-weight: 350;
+  /* line-height: 0.1; */
+  /* border: solid white; */
+  display: flex;
+  align-self: center;
+}
 
 
 .testin{

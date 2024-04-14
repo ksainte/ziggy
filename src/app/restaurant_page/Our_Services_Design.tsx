@@ -9,6 +9,8 @@ import "./Our_Services_Design.css"
 import Image from "next/image";
 // import Button from '../../components/Button'
 import Gallery from "../services/art/Gallery";
+import images from './images';
+
 
 
 
@@ -19,29 +21,29 @@ function Our_Services_Design() {
  <div className='Design_components'>
       <h1 id="products">PRODUCTS</h1>
             <h2>PARTITION</h2>
-            <Gallery/>
+            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
             <h2>WALL FEATURES</h2>
-            <Gallery/>
+            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
             <h2>CEILING</h2>
-            <Gallery/>
+            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
             <h2>DOORS</h2>
-            <Gallery/>
+            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
             <h2>SHELVES</h2>
-            <Gallery/>
+            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
 
 
         <h1 className='mt' id="capabilities" >CAPABILITIES</h1>
             <h2>DIGITAL PRINTING</h2>
-            <Gallery/>
+            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
             <h2>FABRICATION</h2>
-            <Gallery/>
+            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
             <h2>LIGHTING</h2>
-            <Gallery/>
+            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
         <h1 className='mt' id="inspiration">INSPIRATION</h1>
         <h2>PROJECT GALLERY</h2>
-        <Gallery/>
+        <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
         <h1 className='mt'id="murals">MURALS</h1>
-        <Gallery/>
+        <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
         
 
    </div>

@@ -5,7 +5,7 @@
   align-items:center;
   justify-content: center;
   /* border: solid green; */
-  margin-top:5%;
+  margin-top:5rem;
   flex-direction: column;
   width: 100vw;
   /* border: solid red; */
@@ -38,7 +38,7 @@
   justify-content: center;
   /* max-width: 90vw; */
   scroll-margin-top: 10rem;
-  margin-top:5%;
+  margin-top:5rem;
   flex-direction: column;
   /* border: solid red; */
 
@@ -46,22 +46,22 @@
 
 .Design_components > h1{
 
-font-size: 3.5rem;
-color: rgb(180, 143, 48);;
-line-height: 1;
-font-weight: 550;
-letter-spacing: 0.03em;
+  font-size: 2.8rem;
+  color: rgb(180, 143, 48);;
+  line-height: 1;
+  font-weight: 550;
+  letter-spacing: 0.02em;
 
 }
 
 .Design_components > h2{
 
-  font-size: 3rem;
+  font-size: 2.4rem;
   color: black;
   line-height: 1;
   font-weight: 450;
-  letter-spacing: 0.02em;
-  margin-top:7%;
+  letter-spacing: 0.01em;
+  margin-top:6rem;
   
   }
 

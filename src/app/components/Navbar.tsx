@@ -22,9 +22,18 @@ export default function Navbar() {
 
           <div className="navbar_left">
 
-          <Link href="/">
+          {/* <Link href="/">
             <Image className="testin"src={logo} alt="LinkedIn" />
-            </Link>
+            </Link> */}
+          <Link href="/">
+          <p className="testr">
+            ZBD
+          </p>
+          <p className="testr2">
+            DESIGN + ART
+          </p>
+          </Link>
+          
           </div>
 
         <div className="navbar_right">

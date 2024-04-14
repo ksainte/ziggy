@@ -1,73 +1,95 @@
-.see{
+.Header{
 
-    /* position: absolute; */
-    color: white;
+  display:flex;
+  align-items:center;
+  justify-content: flex-start;
+  height:100vh;
+  width: 100vw;
+  overflow-y: hidden;
+  background-image: url("../assets/Header background for top of pages .jpg");
+  background-repeat: no-repeat;
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  opacity: 100%;
+  /* margin-top: 130px;     */
+}
+
+
+.Header_components{
+
+  position: absolute;
+  
+}
+
+
+
+.see{
     display: flex;
     flex-direction: column;
     /* border: solid white; */
-    margin-top: 28%;
+    margin-top: 25rem;
     /* border: solid blue; */
-    width: 80vw;
-    margin-left: 3%;
+    /* width: 60vw; */
+    /* background-color: rgba(230, 164, 42, 0.697); */
+    background-color:rgba(0, 26, 255, 0.554);
+    /* background-color: white; */
+
+    border: solid black 1px;
+    padding: 0.3rem;
+
+    margin-left: 2rem;
     /* margin-right: 35%; */
     
   }
   
   .see> h2{
   
+    /* background-color: rgb(230, 177, 42, 0.5); */
+    /* color: rgb(177, 135, 28); */
     color: white;
-    font-size: 5vw;
+    font-size: 100px;
     /* font-size: 80px; */
 
-    margin-left: 3%;
-    line-height: 1.2;
+    /* margin-left: 3%; */
+    line-height: 1;
     font-weight: 800;
     letter-spacing: 0.02em;
     
-  
+  }
+
+  .H{
+    /* background-color: rgb(230, 177, 42, 0.5); */
+
+    display: flex;
+    color: white;
+    font-size: 100px;
+
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    justify-content: space-between;
+    /* border: solid white; */
   }
   
-  .h3{
-  
+  .ss{
     color: white;
-    font-size: 55%;
-    margin-left: 2%;
-    /* border: solid white; */
+    /* font-size: 3.5vw; */
+    font-size: 50px;
+    /* font-size: 40%; */
+
+    /* margin-left: 2%; */
     line-height: 1;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0.01em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1%;
+    /* margin-top: 1%; */
     font-style: italic;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
   }
 
-
-.Header{
-
-    display:flex;
-    align-items:center;
-    justify-content: flex-start;
-    height:100vh;
-    width: 100vw;
-    overflow-y: hidden;
-    background-image: url("../assets/Header background for top of pages .jpg");
-    background-repeat: no-repeat;
-    /* background-size: 100% 100%; */
-    background-size: cover;
-    opacity: 100%;
-    /* margin-top: 130px;     */
-}
-
-
-.Header_components{
-
-    position: absolute;
-    
-
-    
-}
 
 
 
