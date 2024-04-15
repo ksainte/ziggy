@@ -9,7 +9,7 @@ import "./Our_Services_Design.css"
 import Image from "next/image";
 // import Button from '../../components/Button'
 import Gallery from "../services/art/Gallery";
-import images from './images';
+import images from '../services/art/images';
 
 
 
