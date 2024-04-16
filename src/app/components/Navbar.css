@@ -224,9 +224,7 @@
 
 
 
-.Ap{
-  color: white;
-}
+
 }
 
 
@@ -304,12 +302,10 @@
 
 
   }
-  .Ap{
-    color: white;
-  }
+
   .navbar{
     padding: 0.5rem;
-    background-color:#ebddc995;
+    background-color:#ebddc97c;
     /* border: solid red; */
     
   
