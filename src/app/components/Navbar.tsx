@@ -88,14 +88,14 @@ export default function Navbar() {
         <div className="smallscreen">
           <GiHamburgerMenu
             className="ham"
-            color="black"
-            fontSize={32}
+            // color="white"
+            // fontSize={32}
             onClick={() => setToggleMenu(true)}
           />
           {toggleMenu && (
             <div className="app__navbar-smallscreen_overlay">
               <GiHamburgerMenu
-                fontSize={30}
+                fontSize={38}
                 className="overlay__close"
                 onClick={() => setToggleMenu(false)}
               />
@@ -140,6 +140,7 @@ export default function Navbar() {
                     >
                       Renovation
                     </Link>
+                   
                   </div>
 
                 </li>

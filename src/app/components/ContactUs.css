@@ -48,8 +48,9 @@ textarea {
 #container {
   border: solid 3px rgb(180, 143, 48);
   padding: 30.5px;
-  width: 900px;
-  height: 750px;
+  max-width: 900px;
+  width: 90vw;
+  min-height: 750px;
   /* width: 50rem; */
   /* width: 100%; */
 }
@@ -234,7 +235,7 @@ textarea {
     padding: 8px;
     /* min-width: 80vw; */
 
-    min-width: 80vw;
+    /* min-width: 80vw; */
 
   }
 
@@ -245,7 +246,7 @@ textarea {
     align-items:center;
     justify-content: center;
     scroll-margin-top: 10rem;
-    margin-top:15%;
+    margin-top:3rem;
     /* height: 100vh; */
     /* border: solid red; */
 }
