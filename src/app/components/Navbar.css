@@ -61,7 +61,7 @@
 .links {
     color : white;
     text-decoration: none;
-    font-size: 27px;
+    font-size: 29px;
     font-weight: 410;
     line-height: 1.75rem;
     letter-spacing: 0.02em;
@@ -252,21 +252,6 @@
     /* border: solid red; */
 }
 
-.links {
-  color : black;
-  text-decoration: none;
-  font-size: 28px;
-  font-weight: 410;
-  line-height: 1.75rem;
-  letter-spacing: 0.02em;
-  opacity: 1;
-
-  --tw-space-x-reverse: 0;
-
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-
-}
 .ham{
   color: black;
 
@@ -315,6 +300,8 @@
   }
   .navbar{
     padding: 0.5rem;
+    background-color: white;
+
     /* background-color:#ebddc995; */
     /* border: solid red; */
     
@@ -324,6 +311,15 @@
     color: black;
     font-size:32px;
   
+    }
+    .overlay__close {
+
+      cursor: pointer;
+      position: absolute;
+      top: 3.2rem;
+      right: 4rem;
+      font-size: 33px;
+    
     }
 
 }
