@@ -110,80 +110,23 @@ export default function Navbar() {
                   </Link>
                 </li>
                 
-                <li className="dropdown">
+                <li>
 
                   <Link href="/services/art" 
                   className="links">
                     Art
                   </Link>
 
-                  <div className="dropdown-content">
-                    <Link
-                     href="/services/art/#fine_art"
-                      onClick={() => setToggleMenu(false)}
-                      className="links"
-                    >
-                      Fine Art
-                    </Link>
-
-                    <Link
-                     href="/services/art/#sculpture"
-                      className="links"
-                      onClick={() => setToggleMenu(false)}
-                    >
-                      Sculpture
-                    </Link>
-                    <Link
-                      href="/services/art/#renovation"
-                      className="links"
-                      onClick={() => setToggleMenu(false)}
-                    >
-                      Renovation
-                    </Link>
-                   
-                  </div>
-
                 </li>
 
-                <li className="dropdown">
+                <li>
                   <Link
                     href="/restaurant_page"
                     className="links"
-                    // onClick={() => setToggleMenu(false)}
+                    onClick={() => setToggleMenu(false)}
                   >
                     Restaurant
                   </Link>
-                  <div className="dropdown-content">
-                    <Link
-                     href="/restaurant_page/#products"
-                      onClick={() => setToggleMenu(false)}
-                      className="links"
-                    >
-                      Products
-                    </Link>
-
-                    <Link
-                     href="/restaurant_page/#capabilities"
-                      className="links"
-                      onClick={() => setToggleMenu(false)}
-                    >
-                      Capabilities
-                    </Link>
-                    <Link
-                      href="/restaurant_page/#inspiration"
-                      className="links"
-                      onClick={() => setToggleMenu(false)}
-                    >
-                      Inspiration
-                    </Link>
-                    <Link
-                      href="/restaurant_page/#murals"
-                      className="links"
-                      onClick={() => setToggleMenu(false)}
-                    >
-                      Murals
-                    </Link>
-                  </div>
 
                 </li>
 
