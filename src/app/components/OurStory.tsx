@@ -27,6 +27,8 @@ function OurStory() {
                   solar energy to light the sculpture inside offering viewers a different sculptural experience
                   from inside offering from that of the daytime. </p>         
                                   
+                 
+
                                   <p > The historic influence of my work are Rembrant and Caravaggio. Their uses of color form
                   and medium have proved a good reference for setting my personal standard.
                   Lakeways my contemporary influence witch Dali and Beksinski have challenged to raise my
@@ -35,13 +37,19 @@ function OurStory() {
                   I have successfully installed large scale sculpture
                   temporarily and permanently. I believe that public art transforms the way people look at visual phenomena in
                   their environment. </p>
+
+            
                 </p>
 
                 
               
                 </article>
-                 
+                <div className='A'>
+                       <Image src={ziggy} alt="header_img" />
+                </div>
             </div>
+
+
   
     </div>
   )

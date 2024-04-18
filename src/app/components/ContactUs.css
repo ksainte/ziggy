@@ -239,6 +239,8 @@ textarea {
 
   }
 
+
+
   .Contact_components {
 
     display:flex;
@@ -246,25 +248,12 @@ textarea {
     align-items:center;
     justify-content: center;
     scroll-margin-top: 10rem;
-    margin-top:3rem;
+    margin-top:4rem;
     /* height: 100vh; */
     /* border: solid red; */
 }
 
-  .Contact{
-    margin-top:20%;
-  }
-  .Contact > h1 {
 
-    font-size: 370%;
-    color: rgb(180, 143, 48);;
-      line-height: 1;
-      font-weight: 550;
-      letter-spacing: 0.03em;
-      max-width: 80vw;
-
-  
-  }
 .submit {
 flex-direction: column;
     display:flex;

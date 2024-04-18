@@ -17,7 +17,7 @@ import images from '../services/art/images';
 function Our_Services_Design() {
   return (
     <div className='Design' >
-    <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit."</h1>
+    <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "</h1>
  <div className='Design_components'>
       <h1 id="products">PRODUCTS</h1>
             <h2>PARTITION</h2>
@@ -39,9 +39,11 @@ function Our_Services_Design() {
             <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
             <h2>LIGHTING</h2>
             <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
+       
         <h1 className='mt' id="inspiration">INSPIRATION</h1>
         <h2>PROJECT GALLERY</h2>
         <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
+       
         <h1 className='mt'id="murals">MURALS</h1>
         <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
         

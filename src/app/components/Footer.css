@@ -34,6 +34,8 @@ body{
   
   .col-1{
     display: flex;
+    /* align-content: center;
+    justify-content: center; */
     flex-direction: column;
     max-width: 30rem;
     position:relative;
@@ -47,6 +49,8 @@ body{
     /* object-fit: contain; */
     height :170px;
     width: 255px;
+    position: relative;
+    left: 2rem;
 }
 
 .footer-about{
@@ -54,6 +58,7 @@ body{
     font-size: 20px;
     color: black;
     text-align: justify;
+    margin: 2rem;
 }
 
 #footer{
@@ -207,7 +212,13 @@ display:flex;
 }
 
 .col-1{
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+.col-1 > a> img{
+  position: relative;
+left:17vw;
 }
 }

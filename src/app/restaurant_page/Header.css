@@ -55,12 +55,12 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 451px) and (max-width: 768px) {
     .Header_rest{
-        height: 38vh;
+        height: 30rem;
         width: 100vw;
         /* overflow-y: visible; */
-        margin-top: 25%;
+        margin-top: 9rem;
 
  
     }
@@ -82,6 +82,27 @@
     
     }
 
+}
+@media screen and (max-width: 450px) {
+
+    .Header_rest{
+        height: 25rem;
+        margin-top:4.5rem;
+    }
+    .Header_center_rest > h2 {
+   
+        font-size: 2.3rem;
+   
+    
+    }
+    .Header_center_rest{
+
+       
+        padding: 0.7rem;
+        border: solid 2px rgb(180, 143, 48);;
+
+   
+    }
 }
 
 

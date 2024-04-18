@@ -27,7 +27,7 @@
 
 
 .Gallery_Down_design {
-    margin-top: 6rem;
+    margin-top: 4rem;
     /* flex: 1; */
     display: flex;
     flex-direction: row;
@@ -81,7 +81,9 @@
 .app__gallery_arrows {
     /* border: solid blue; */
 
-    width: 90vw;
+    width: 90rem;
+    max-width: 90vw;
+    min-width: 80vw;
     /* margin-left: 1rem;
     margin-right: 1rem; */
     display: flex;
@@ -108,12 +110,13 @@
 
 @media screen and (max-width: 768px) {
     .Gallery_design{
-        margin-top:8%;
+        margin-top:0rem;
 }
 
 .Gallery_components_design {
     max-width: fit-content;
 }
+
 
 
 
@@ -132,10 +135,11 @@
 
 .app__gallery-images {
     position: relative;
-    min-width: 100vw;
+    min-width: 75vw;
 
-    height: auto;
+    height:auto;
     margin-right: 0rem;
+
         /* border: solid red; */
         padding: 1rem;
         /* padding-left: 1.5rem;
@@ -158,3 +162,17 @@
 
 }
 
+@media screen and (max-width: 450px) {
+    .app__gallery-images {
+        position: relative;
+        min-width: 100vw;
+    
+        height:auto;
+        margin-right: 0rem;
+    
+            /* border: solid red; */
+            padding: 1rem;
+            /* padding-left: 1.5rem;
+            padding-right: 1.5rem; */
+    }
+}
