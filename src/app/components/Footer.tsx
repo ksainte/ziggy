@@ -58,7 +58,7 @@ function Footer() {
 								<li>
 									
 								<Link href="/restaurant_page">
-									Restaurant
+								Portfolio
 								</Link>
 									
 								</li>

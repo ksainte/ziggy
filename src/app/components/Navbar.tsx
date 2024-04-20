@@ -125,7 +125,7 @@ export default function Navbar() {
                     className="links"
                     onClick={() => setToggleMenu(false)}
                   >
-                    Restaurant
+                    Portfolio
                   </Link>
 
                 </li>

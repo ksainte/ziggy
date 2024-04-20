@@ -204,5 +204,11 @@ display:flex;
   display: flex;
   align-self: center;
 }
+.copy-right-sec{
+	padding: 0.55rem;
+
+    font-size: 16px;
+
+}
 
 }
