@@ -21,11 +21,11 @@ function Our_Services_Design() {
  <div className='Design_components'>
       <h1 id="products">PRODUCTS</h1>
             <h2>PARTITION</h2>
-            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
+            <Gallery images={[images.part1,images.part7, images.part5, images.part6,images.part4, images.part8, images.part9,images.part10, images.part11]}/>
             <h2>WALL FEATURES</h2>
-            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
+            <Gallery images={[images.wall1, images.wall6,images.wall4, images.wall5, images.wall2,images.wall7]}/>
             <h2>CEILING</h2>
-            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
+            <Gallery images={[images.ceiling1, images.ceiling2,images.ceiling3, images.ceiling4, images.ceiling5,images.ceiling6]}/>
             <h2>DOORS</h2>
             <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
             <h2>SHELVES</h2>

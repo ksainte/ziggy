@@ -6,20 +6,9 @@
 	-ms-box-sizing:border-box;
 	box-sizing:border-box;
 }
-body{
-	font-size:14px;
-	background: #fff;
-  /* max-width:1920px;
-  margin:0 auto; */
-	overflow-x:hidden;
-	font-family: poppins;
-	
-
-}
-
 
 .foot {
-  margin-top:10%;
+  margin-top:10rem;
   width: 100vw;
 
         /* border: solid green; */
@@ -34,23 +23,20 @@ body{
   
   .col-1{
     display: flex;
-    /* align-content: center;
-    justify-content: center; */
+    align-items: center;
+  
     flex-direction: column;
     max-width: 30rem;
-    position:relative;
-    top: -40px;
-    /* justify-content: center;
-    align-items: center; */
+
 
 
 }
   .col-1 > a> img{
-    /* object-fit: contain; */
+    object-fit: contain;
     height :170px;
     width: 255px;
-    position: relative;
-    left: 2rem;
+    /* position: relative;
+    left: 2rem; */
 }
 
 .footer-about{
@@ -80,10 +66,11 @@ li{
 }
 
 .useful-link h2{
-	margin-bottom: 15px;
-	font-size: 25px;
+	/* margin-bottom: 15px; */
+	font-size: 28px;
     font-weight: 600;
     color: black;
+    /* border: solid red; */
 }
 .useful-link img{
 	padding-bottom: 15px;
@@ -100,6 +87,7 @@ li{
 margin-top: 25px;
 display:flex;
 /* flex-direction: column; */
+/* border: solid green; */
 
 }
 
@@ -141,7 +129,7 @@ display:flex;
   }
 
 .use-links li a{
-    font-size: 21px;
+    font-size: 25px;
     font-weight: 500;
 	color: rgb(180, 143, 48);
  
@@ -160,7 +148,7 @@ display:flex;
 
 
 .address-links li{
-    font-size: 21px;
+    font-size: 25px;
     font-weight: 500;
 	color: rgb(180, 143, 48);
 
@@ -173,12 +161,16 @@ display:flex;
     background: rgb(180, 143, 48);
     color: #fff;
     text-align: center;
-    font-size: 17.5px;
+    font-size: 20px;
 
 }
 .copy-right-sec a{
 	color: black;
     font-weight: 500;
+}
+
+.col-md-1 {
+  margin-left: 2rem;
 }
 
 
@@ -200,10 +192,7 @@ display:flex;
     margin-top: 50px;
   }
 
-  .col-md-1 {
-    margin-top: -30px;
-    /* border: solid red; */
-  }
+
 
   .foot {
     margin-top:80px;
@@ -213,12 +202,7 @@ display:flex;
 
 .col-1{
   display: flex;
-  justify-self: center;
   align-self: center;
-  text-align: center;
 }
-.col-1 > a> img{
-  position: relative;
-left:17vw;
-}
+
 }

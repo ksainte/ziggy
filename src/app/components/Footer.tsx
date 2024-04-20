@@ -29,7 +29,9 @@ function Footer() {
 		<footer id="footer">
 			<div className="container">
 				<div className="row">
+
 					<div className="col-1">
+
 						<Link href="/">
                             <Image src={logo} alt="" className="img-fluid logo-footer"/></Link>
                       <div className="footer-about">
@@ -37,6 +39,7 @@ function Footer() {
                       </div>
 
 					</div>
+
 					<div className="col-md-1">
 						<div className="useful-link">
 							<h2>Useful Links</h2>
@@ -64,7 +67,7 @@ function Footer() {
 						</div>
 
 					</div>
-                    <div className="col-md-3">
+                    <div className="col-md-1">
                         <div className="useful-link">
 							<h2>Follow Us</h2>
 							{/* <img src="./assets/images/about/home_line.png" alt=""> */}
@@ -84,7 +87,7 @@ function Footer() {
                     
 
                     </div>
-					<div className="col-md-3">
+					<div className="col-md-1">
 						<div className="useful-link">
 							<h2>Contact</h2>
 							{/* <img src="./assets/images/about/home_line.png" alt="" className="img-fluid"> */}

@@ -15,7 +15,7 @@ export default function Home() {
      <div className='App_body'>
      <Header/>
          <Our_Services/>
-         <OurStory/>
+         {/* <OurStory/> */}
          <ContactUs/>
 
       </div>

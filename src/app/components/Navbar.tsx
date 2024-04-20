@@ -59,14 +59,14 @@ export default function Navbar() {
                   Sculpture
                 </Link>
                 <Link href="/services/art/#renovation" className="links">
-                  Renovation
+                  Renovations
                 </Link>
               </div>
             </li>
 
             <li>
               <Link href="/restaurant_page" className="links">
-                Restaurant
+                Portfolio
               </Link>
 
             </li>
