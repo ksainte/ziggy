@@ -50,7 +50,7 @@ up and down to see the image, we dont want that*/
     display: none;
 }
 .app__gallery-images:hover img {
-    opacity: .35;
+    opacity: 1;
 }
 
 .app__gallery-images:hover .gallery__image-icon {
@@ -90,7 +90,7 @@ up and down to see the image, we dont want that*/
 
 @media screen and (max-width: 768px) {
     .app__gallery-images:hover img {
-        opacity: 0.55;
+        opacity:1;
     }
 
 }
