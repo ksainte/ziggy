@@ -91,44 +91,46 @@ up and down to see the image, we dont want that*/
 
 @media screen and (max-width: 450px) {
 
+    .Gallery_components_design {
+
+        scroll-margin-top: 10rem;
+        overflow-x: none;
+
+    }
+    
     .Gallery_Down_design {
+
         width: 100vw;
+
     }
 
 
 
 
 .app__gallery {
-    display: block;
-    overflow-x: none;
-    /* max-width: max-content; */
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 
-
-
+    /* gap: 15px; */
 
 }
 
 
 
 .app__gallery-images {
-
-    /* height:auto; */
-    margin-right: 0rem;
-    /* width: 100%; */
-    /* padding: 1rem; */
-    width: 100vw;
-
+    min-width: 100vw;
+    height: auto;
+    margin-right:0rem;
+    margin-top: -7rem;   
 }
 
-
 .app__gallery-images img {
-
     object-fit:contain;
-    /* padding: 0.5rem; */
-    max-height: 40rem;
-    max-width: max-content;
-
+    padding: 5rem;
 }
 
 .app__gallery_arrows {
