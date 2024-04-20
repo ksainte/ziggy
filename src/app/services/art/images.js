@@ -8,6 +8,12 @@ import art2 from '../../assets/artphoto2.jpg';
 import art3 from '../../assets/artphoto3.jpg';
 import art4 from '../../assets/artphoto4.jpg';
 
+import s13 from '../../assets/scul13.jpg';
+import Boberart from '../../assets/BoberwArt.jpg';
+import header from '../../assets/Header background for top of pages .jpg';
+
+
+
 import art_photo from '../../assets/Artphotohomepage.jpg';
 import bober_scultpure from '../../assets/Bobersculptures.jpg';
 import ceiling1 from '../../assets/ceiling1.png';
@@ -114,6 +120,11 @@ import wall7 from '../../assets/wall7.png';
 
 import ziggy from '../../assets/ziggy.jpg';
 
+import p1 from '../../assets/painting1.jpg';
+import p2 from '../../assets/painting2.jpg';
+import p3 from '../../assets/painting3.jpg';
+
+
 
 
 export default {
@@ -157,5 +168,5 @@ export default {
     profile, resto1,resto2,resto3,resto4,resto5,resto6,resto7,
     resto8,resto9,resto10,resto11,rp1,rp2,rp3,rp4,rp5,s1,s2,
     s3,s4,s5,s6,s7,s8,s9,s11,wall1,wall2,wall3,wall4,wall5,wall6,
-    wall7,ziggy
+    wall7,ziggy,s13,Boberart,header,p1,p2,p3
 };

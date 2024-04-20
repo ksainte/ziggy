@@ -13,7 +13,7 @@ import Button from './Button'
 function OurStory() {
   return (
     <div className='Services'>
-         <h1>Artistic Statment</h1>
+         <h1>Artistic Statement</h1>
      
          <div className='About_components1'>
                 <article className='About_leftside1'>                

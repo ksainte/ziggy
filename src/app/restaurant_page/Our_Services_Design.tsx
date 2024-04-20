@@ -25,27 +25,27 @@ function Our_Services_Design() {
             <h2>WALL FEATURES</h2>
             <Gallery images={[images.wall1, images.wall6,images.wall4, images.wall5, images.wall2,images.wall7]}/>
             <h2>CEILING</h2>
-            <Gallery images={[images.ceiling1, images.ceiling2,images.ceiling3, images.ceiling4, images.ceiling5,images.ceiling6]}/>
+            <Gallery images={[images.ceiling1, images.ceiling2,images.ceiling3, images.ceiling4, images.ceiling5,images.ceiling6,images.designphoto3]}/>
             <h2>DOORS</h2>
-            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
+            <Gallery images={[images.doors1, images.doors3]}/>
             <h2>SHELVES</h2>
             <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
 
 
         <h1 className='mt' id="capabilities" >CAPABILITIES</h1>
             <h2>DIGITAL PRINTING</h2>
-            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
+            <Gallery images={[images.DP, images.DP2, images.DP3]}/>
             <h2>FABRICATION</h2>
-            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
+            <Gallery images={[images.FAB4, images.FAB5, images.FAB1,images.FAB2, images.FAB3, images.FAB6]}/>
             <h2>LIGHTING</h2>
-            <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
+            <Gallery images={[images.header,images.designphoto4,images.designhomepage]}/>
        
         <h1 className='mt' id="inspiration">INSPIRATION</h1>
         <h2>PROJECT GALLERY</h2>
         <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
        
         <h1 className='mt'id="murals">MURALS</h1>
-        <Gallery images={[images.gallery01, images.gallery02, images.gallery03]}/>
+        <Gallery images={[images.murals4, images.murals2, images.murals3,images.murals1, images.murals5, images.murals6,images.murals7, images.murals8,images.murals10]}/>
         
 
    </div>

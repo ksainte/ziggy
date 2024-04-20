@@ -100,7 +100,9 @@ up and down to see the image, we dont want that*/
     
     .Gallery_Down_design {
 
-        width: 100vw;
+        width: 100%;
+        margin-top: 4rem;
+
 
     }
 
@@ -114,6 +116,8 @@ up and down to see the image, we dont want that*/
     overflow-x: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    width: 100vw;
+
 
     /* gap: 15px; */
 

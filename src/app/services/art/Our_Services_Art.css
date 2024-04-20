@@ -126,5 +126,8 @@ text-align: center;
       /* line-height: 3rem; */
       max-width: 80vw;
     }
+    .mt  {
+      margin-top:1rem;
+    }
   
   }
