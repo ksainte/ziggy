@@ -74,7 +74,7 @@ up and down to see the image, we dont want that*/
 }
 
 .gallery_arrow-icon:hover {
-    opacity: .35;
+    opacity: .55;
 }
 
 /* @media screen and (max-width: 650px) {
@@ -88,7 +88,12 @@ up and down to see the image, we dont want that*/
 
 } */
 
+@media screen and (max-width: 768px) {
+    .app__gallery-images:hover img {
+        opacity: 0.75;
+    }
 
+}
 @media screen and (max-width: 450px) {
 
     .Gallery_components_design {
@@ -145,30 +150,6 @@ up and down to see the image, we dont want that*/
     opacity: 1;
 }
 
+
 }
 
-/* @media screen and (max-width: 450px) {
-
-
-
-    
-    .app__gallery-images {
-        min-width: 100vw;
-    
-        height:auto;
-        margin-left: 0rem;
-    
-            padding: 0rem;
-       
-    }
-
-    .app__gallery-images img {
-
-        max-height: 40rem;
-        object-fit: cover;
-
-        opacity: 1;
-        transition: .5s ease;
-    }
-    
-} */
