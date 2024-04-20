@@ -90,7 +90,7 @@ up and down to see the image, we dont want that*/
 
 @media screen and (max-width: 768px) {
     .app__gallery-images:hover img {
-        opacity: 0.75;
+        opacity: 0.55;
     }
 
 }
