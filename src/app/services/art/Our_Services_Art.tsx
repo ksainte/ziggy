@@ -24,7 +24,7 @@ function Our_Services_Art() {
     <OurStory/> 
  <div className='Art_components'>
       <h1  id="fine_art">FINE ART</h1>
-      <Gallery images={[images.fa1, images.fa2, images.fa3]}/>
+      <Gallery images={[images.fa1, images.fa2, images.fa3,images.fa1, images.fa2, images.fa3]}/>
         <h1 className='mt' id="sculpture">SCULPUTURE</h1>
         <Gallery images={[images.s1, images.s11, images.s7, images.s2, images.s3,images.s6, images.s8, images.s9]}/>
         <h1 className='mt' id="renovation">RENOVATION</h1>
