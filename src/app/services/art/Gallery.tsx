@@ -44,9 +44,9 @@ const Gallery = ({ images }) => {
           <BsArrowRightShort className="gallery_arrow-icon" onClick={() => scroll('right')} />
         </div>
 
-    
-
         </div>
+
+        
   );
 };
 

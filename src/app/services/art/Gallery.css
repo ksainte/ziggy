@@ -1,55 +1,37 @@
 
 .Gallery_components_design {
 
-    /* max-width: 80vw; */
     scroll-margin-top: 10rem;
-    /* border: solid yellow; */
-    /* overflow-x: hidden; */
-    /* display: flex;
-    flex-direction: column-reverse; */
-
-    margin-top: 4rem;
-    display: flex;
-    flex-direction: row;
-    width: 80vw;
-    border: solid green;
-
 }
 
 
 
 
 .Gallery_Down_design {
-
+    margin-top: 4rem;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow-x: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    /* min-width: fit-content; */
-    width: max-content;
+    flex-direction: row;
+    width: 80vw;
 }
 
 .app__gallery {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    width: max-content;
 
-display: flex;
-margin-left: 2rem;
-min-width: 30rem;
-max-height: 35rem;
+  
 }
 
 
 .app__gallery-images {
 
-    /* width: 30rem; */
-    /* max-height: 35rem; */
-
-    /* margin-left: 2rem;
+    margin-right: 2rem;
     scroll-snap-align: start;
     min-width: 30rem;
-    max-height: 35rem; */
-    /* width: max-content; */
+    max-height: 35rem;
 }
 
 
@@ -59,11 +41,7 @@ up and down to see the image, we dont want that*/
 .app__gallery-images img {
 
     max-height: 35rem;
-
-    /* width: max-content; */
     min-width: 30rem;
-    /* width: 100%; */
-    /* height: 100%; */
     object-fit: cover;
     opacity: 1;
     transition: .5s ease;
@@ -81,67 +59,75 @@ up and down to see the image, we dont want that*/
 
 .app__gallery_arrows {
 
-    /* width: 90rem; */
-    /* min-width: 95vw; */
-    /* min-width: 80vw; */
+
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    margin-top: 6rem;
-    /* border: solid blue; */
+    justify-content: center;
 }
 
 .gallery_arrow-icon {
     color: var(--color-golden);
-    font-size: 4rem;
+    font-size: 5rem;
     cursor: pointer;
     background: var(--color-black);
     border-radius: 5px;
+    margin: 1rem;
 }
 
 .gallery_arrow-icon:hover {
-    color: var(--color-white);
+    opacity: .35;
 }
 
-@media screen and (max-width: 768px) {
-    .Gallery_design{
-        margin-top:0rem;
-}
+/* @media screen and (max-width: 650px) {
 
-.Gallery_components_design {
-    max-width: fit-content;
-}
+    .app__gallery-images img {
+
+        object-fit:fit-contain;
+        padding: 0.5rem;
+    
+    }
+
+} */
+
+
+@media screen and (max-width: 450px) {
+
+    .Gallery_Down_design {
+        width: 100vw;
+    }
 
 
 
 
 .app__gallery {
     display: block;
-    width: 100%;
-    width: fit-content;
+    overflow-x: none;
+    /* max-width: max-content; */
+    width: 100vw;
+
 
 
 
 }
 
-.app__gallery::-webkit-scrollbar {
-    display: none;
-}
+
 
 .app__gallery-images {
-    /* position: relative; */
-    min-width: 100vw;
 
-    height:auto;
-    margin-left: 0rem;
+    /* height:auto; */
+    margin-right: 0rem;
+    /* width: 100%; */
+    /* padding: 1rem; */
+    width: 100vw;
+
 }
 
 
 .app__gallery-images img {
 
     object-fit:contain;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
+    max-height: 40rem;
+    max-width: max-content;
 
 }
 
@@ -155,32 +141,28 @@ up and down to see the image, we dont want that*/
 
 }
 
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
 
 
 
     
     .app__gallery-images {
-        /* position: relative; */
         min-width: 100vw;
     
         height:auto;
         margin-left: 0rem;
     
-            /* border: solid red; */
             padding: 0rem;
-            /* padding-left: 1.5rem;
-            padding-right: 1.5rem; */
+       
     }
 
     .app__gallery-images img {
-        /* min-width: 100%;
-        height: 100%; */
+
         max-height: 40rem;
         object-fit: cover;
-        /* padding: 1rem; */
+
         opacity: 1;
         transition: .5s ease;
     }
     
-}
+} */
