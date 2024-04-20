@@ -30,7 +30,7 @@
 
     margin-right: 2rem;
     scroll-snap-align: start;
-    min-width: 30rem;
+    min-width: 40rem;
     max-height: 35rem;
 }
 
@@ -41,7 +41,7 @@ up and down to see the image, we dont want that*/
 .app__gallery-images img {
 
     max-height: 35rem;
-    min-width: 30rem;
+    min-width: 40rem;
     object-fit: cover;
     opacity: 1;
     transition: .5s ease;
